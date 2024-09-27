@@ -157,6 +157,7 @@ body {
 h2 {
     align-self: center;
     margin-bottom: 0;
+    margin-top: 4%;
 
 }
 
@@ -182,7 +183,7 @@ h2 {
 .campo input {
     width: 100%;
     align-self: center;
-    height: 35px;
+    height: 32px;
     border-radius: 10px;
     border: 2px solid #32b9cd;
     text-align: center;
@@ -198,7 +199,7 @@ h2 {
     width: 110px;
     height: 30px;
     align-self: center;
-    margin: 20px;
+    margin: 4%;
     font-weight: bold;
 }
 
@@ -207,4 +208,16 @@ h2 {
     height: 400px;
     display: flex;
     flex-direction: column;
+}
+
+.card-cadastro input {
+    height: 29px;
+}
+
+.card-cadastro .botao {
+    margin: 2.3%;
+}
+
+.card-cadastro span {
+    font-size: 11px;
 }
