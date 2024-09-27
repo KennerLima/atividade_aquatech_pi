@@ -19,7 +19,7 @@ body {
 
 .titulo {
     color: #32b9cd;
-} 
+}
 
 .navbar {
     display: flex;
@@ -49,7 +49,7 @@ body {
 
 }
 
-.banner .container p{
+.banner .container p {
     margin: 0;
     color: white;
     font-size: 20px;
@@ -116,17 +116,22 @@ body {
     flex-direction: column;
     align-items: center;
     color: white;
-    
+
 }
 
 .footer .container h4 {
     margin-bottom: 0;
 }
 
+.agora {
+    font-weight: bold;
+}
+
 .login {
     height: 500px;
     width: 100%;
     background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    color: #d77491;
 }
 
 .login .container {
@@ -138,49 +143,68 @@ body {
 }
 
 .login .container .card {
-    width: 600px;
-    height: 250px;
     border-radius: 10px;
     background-color: #dcdcdc;
 }
 
 .card-login {
+    width: 600px;
+    height: 250px;
     display: flex;
     flex-direction: column;
 }
 
-.card-login h2{
+h2 {
     align-self: center;
-    margin-top: 30px;
     margin-bottom: 0;
-    
+
 }
 
 .formulario {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
-.formulario span {
-    margin-right: 400px;
-    padding-left: 50px;
+
+.campo {
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
 }
 
-.formulario input {
- margin-left: 50px;
- margin-right: 50px;
- width: 480px;
- height: 35px;
- border-radius: 10px;
- border: 2px solid #32b9cd;
- align-items: center;
+.campo span {
+    font-size: 12px;
+    font-weight: bold;
 }
 
-.formulario button {
+.campo input {
+    width: 100%;
+    align-self: center;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #32b9cd;
+    text-align: center;
+    
+}
+
+.botao {
+
+    border-radius: 5px;
+    border: #ef135b;
+    background-color: #ef135b;
+    color: white;
     width: 110px;
     height: 30px;
-    margin-top: 15px;
-    border-radius: 5px;
-    border: 2px solid rgb(255, 34, 71);
     align-self: center;
-    background-color: rgb(255, 34, 71);
+    margin: 20px;
+    font-weight: bold;
+}
+
+.card-cadastro {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
 }
